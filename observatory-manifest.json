@@ -13,15 +13,6 @@
          "maintenance": []
       },
       {
-         "name": "Atlanta, Georgia",
-         "country": "us",
-         "shortcode": "atl02",
-         "transit_provider": "cogent",
-         "start_date": null,
-         "end_date": null,
-         "maintenance": []
-      },
-      {
          "name": "Dallas, Texas",
          "country": "us",
          "shortcode": "dfw01",
@@ -85,15 +76,6 @@
          "maintenance": []
       },
       {
-         "name": "Miami, Florida",
-         "country": "us",
-         "shortcode": "mia02",
-         "transit_provider": "cogent",
-         "start_date": null,
-         "end_date": null,
-         "maintenance": []
-      },
-      {
          "name": "San Francisco, California",
          "country": "us",
          "shortcode": "nuq01",
@@ -126,15 +108,6 @@
          "shortcode": "ord01",
          "transit_provider": "level3",
          "start_date": "2009-03-20T00:00:00Z",
-         "end_date": null,
-         "maintenance": []
-      },
-      {
-         "name": "Orlando, Florida",
-         "country": "us",
-         "shortcode": "ord02",
-         "transit_provider": "cogent",
-         "start_date": null,
          "end_date": null,
          "maintenance": []
       },
@@ -241,4 +214,3 @@
       }
     ]
  }
-
