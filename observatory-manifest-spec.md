@@ -1,3 +1,5 @@
+=M-Lab Observatory Manifest Specification Guidelines=
+
 ==Requirements==
 
 ===Things that should be conveyed===
