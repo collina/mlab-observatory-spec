@@ -27,7 +27,7 @@ Draft Spec
          "country": String(ISO 3166 two-letter),
          "shortcode": String(airport code),
          "transit_provider": String,
-         "start_date": UnixTimestamp/UTCTimestamp/null (null implies that site is not yet public),
+         "start_date": UnixTimestamp/UTCTimestamp/null,
          "end_date": UnixTimestamp/UTCTimestamp/null,
          "maintenance": [
             {
