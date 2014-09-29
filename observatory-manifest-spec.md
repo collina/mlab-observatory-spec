@@ -1,8 +1,12 @@
-=M-Lab Observatory Manifest Specification Guidelines=
+M-Lab Observatory Manifest Specification Guidelines
+====================
+Version: 0.0 (2014-09-29)
 
-==Requirements==
+Requirements
+---------------------
 
-===Things that should be conveyed===
+*Things that should be conveyed*
+
 * What Measurement Lab sites have been available, and when they became available.
 * What ISPs are available and when they became available or unavailable.
 * What metrics Measurement Lab has data for, and when did we start collecting the data.
@@ -10,7 +14,9 @@
 * What events could cause inconsistent or missing data.
 ** Where is there gaps in data due to downtime? 
 
-==Draft Spec==
+Draft Spec
+---------------------
+```
  {
    "file_format_version": 1,
    "generated_on": UnixTimestamp/UTCTimestamp,
@@ -28,7 +34,7 @@
                "type": String("downtime", "rename", ...),
                "start_time": UnixTimestamp/UTCTimestamp,
                "end_time": UnixTimestamp/UTCTimestamp/null,
-               "affected_tests": String("all", [metric_name])
+               "affected_tests": String("all", [metric:name])
             },
             ...
          ]
@@ -59,3 +65,4 @@
       ...
    ],
  }
+```
